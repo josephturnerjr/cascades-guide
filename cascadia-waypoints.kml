@@ -1,0 +1,469 @@
+
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="CROSS">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/cross.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="CROSS_RED">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/cross_red.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="CROSS_GREEN">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/cross_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="CROSS_BLUE">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/cross_blue.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="PIN_RED">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_red.png
+</href>
+<hotSpot x="0.5" y="0.0" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="PIN_GREEN">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.0" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="PIN_BLUE">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.0" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="PIN_YELLOW">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.0" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="CIRCLE">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="CIRCLE_RED">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="CIRCLE_GREEN">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="CIRCLE_BLUE">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="STAR">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="STAR_RED">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="STAR_GREEN">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="STAR_BLUE">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="TRIANGLE">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.0" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="TRIANGLE_RED">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.0" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="TRIANGLE_GREEN">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.0" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="TRIANGLE_BLUE">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.0" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="BADGE">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="SIGN_WARNING">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="SIGN_FORBIDDEN">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="CAR">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.0" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="HOME">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.0" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="DROP">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="FISH">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="AIRPLANE">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/pin_green.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="CAMERA">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/camera.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Style id="TURN">
+<IconStyle>
+<scale>1.0
+</scale>
+<Icon>
+<href>http://res.mictale.com/kml/turn.png
+</href>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>Bridge
+</name>
+<description>
+<![CDATA[
+<p>
+</p>
+]]>
+</description>
+<styleUrl>#PIN_GREEN
+</styleUrl>
+<Point>
+<coordinates>-80.59613,37.354668,681.0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>First Bench 
+</name>
+<description>
+<![CDATA[]]>
+</description>
+<styleUrl>#PIN_GREEN
+</styleUrl>
+<Point>
+<coordinates>-80.5941,37.35605,699.9
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Second Bench 
+</name>
+<description>
+<![CDATA[]]>
+</description>
+<styleUrl>#PIN_GREEN
+</styleUrl>
+<Point>
+<coordinates>-80.58869,37.35884,716.1
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>First Boulder In Phramid Area
+</name>
+<description>
+<![CDATA[]]>
+</description>
+<styleUrl>#PIN_GREEN
+</styleUrl>
+<Point>
+<coordinates>-80.59168,37.357277,801.0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Coltrol Boulder
+</name>
+<description>
+<![CDATA[]]>
+</description>
+<styleUrl>#PIN_GREEN
+</styleUrl>
+<Point>
+<coordinates>-80.591675,37.357433,747.7
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pyramid
+</name>
+<description>
+<![CDATA[]]>
+</description>
+<styleUrl>#PIN_GREEN
+</styleUrl>
+<Point>
+<coordinates>-80.591156,37.35747,733.9
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Across Stream from Trailside
+</name>
+<description>
+<![CDATA[]]>
+</description>
+<styleUrl>#PIN_GREEN
+</styleUrl>
+<Point>
+<coordinates>-80.593285,37.35594,736.2
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Wagerfall Block
+</name>
+<description>
+<![CDATA[]]>
+</description>
+<styleUrl>#PIN_GREEN
+</styleUrl>
+<Point>
+<coordinates>-80.59665,37.35414,688.3
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Clanderstine
+</name>
+<description>
+<![CDATA[]]>
+</description>
+<styleUrl>#PIN_GREEN
+</styleUrl>
+<Point>
+<coordinates>-80.59629,37.35346,703.5
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Supermassive
+</name>
+<description>
+<![CDATA[]]>
+</description>
+<styleUrl>#PIN_BLUE
+</styleUrl>
+<Point>
+<coordinates>-80.59768,37.35318,674.9
+</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
